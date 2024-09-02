@@ -316,9 +316,9 @@ header a{
 }
 
 .about-header{
-  color:#000000bd;
-  font-family: "Oswald", sans-serif !important;
-  font-size: 60px;
+  color:#f1a53a;
+  font-weight: 700;
+  font-size: 70px;
 }
 
 /* running time */
