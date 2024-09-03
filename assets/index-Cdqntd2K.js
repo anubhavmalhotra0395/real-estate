@@ -1,5 +1,5 @@
 import"https://cdn.jsdelivr.net/npm/vanilla-marquee/dist/vanilla-marquee.js";(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const n of t.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&s(n)}).observe(document,{childList:!0,subtree:!0});function i(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function s(e){if(e.ep)return;e.ep=!0;const t=i(e);fetch(e.href,t)}})();const g=()=>`
-    <div class="py-5 position-relative" style="height:65vh; width:100vw; background:#d1e8ff"">
+    <div class="py-5 position-relative contact-con" style="height:65vh; width:100vw;">
     <div class="wrapper centered">
       <article class="letter">
         <div class="side">
@@ -24,7 +24,11 @@ import"https://cdn.jsdelivr.net/npm/vanilla-marquee/dist/vanilla-marquee.js";(fu
       <div class="envelope back"></div>
     </div>
     <p class="result-message centered text-center">Thank you for your message</p>
-    </div>`;function y(){document.body.classList.add("sent")}window.onload=()=>{const l=document.getElementById("sendLetter");l&&l.addEventListener("click",y)};const u="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",x=()=>{let l=document.getElementById("next"),r=document.getElementById("prev"),i=document.querySelector(".carousel"),s=i.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let n=3e3,o=7e3;l.onclick=function(){m("next")},r.onclick=function(){m("prev")};let d,v=setTimeout(()=>{next.click()},o);function m(h){let a=s.querySelectorAll(".carousel .list .item"),c=document.querySelectorAll(".carousel .thumbnail .item");h==="next"?(s.appendChild(a[0]),e.appendChild(c[0]),i.classList.add("next")):(s.prepend(a[a.length-1]),e.prepend(c[c.length-1]),i.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{i.classList.remove("next"),i.classList.remove("prev")},n),clearTimeout(v),v=setTimeout(()=>{next.click()},o)}},b=()=>`
+    </div>
+    <div class="main-bg" style=" background-color:#f8f3ea">
+<small class="text-center text-dark" style="font-size:10px;">@zarahrealestate 2024</small>
+    </div>
+    `;function y(){document.body.classList.add("sent")}window.onload=()=>{const l=document.getElementById("sendLetter");l&&l.addEventListener("click",y)};const u="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",x=()=>{let l=document.getElementById("next"),r=document.getElementById("prev"),i=document.querySelector(".carousel"),s=i.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let n=3e3,o=7e3;l.onclick=function(){m("next")},r.onclick=function(){m("prev")};let d,v=setTimeout(()=>{next.click()},o);function m(h){let a=s.querySelectorAll(".carousel .list .item"),c=document.querySelectorAll(".carousel .thumbnail .item");h==="next"?(s.appendChild(a[0]),e.appendChild(c[0]),i.classList.add("next")):(s.prepend(a[a.length-1]),e.prepend(c[c.length-1]),i.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{i.classList.remove("next"),i.classList.remove("prev")},n),clearTimeout(v),v=setTimeout(()=>{next.click()},o)}},b=()=>`
     <div class="list w-100">
     <div class="item w-100">
         <img src=${u}>
@@ -107,7 +111,7 @@ import"https://cdn.jsdelivr.net/npm/vanilla-marquee/dist/vanilla-marquee.js";(fu
     <h1 class="about-des  w-100 ">"Passionate about helping clients find their perfect home or investment. With a keen eye for market trends and a deep understanding of property values, I tur real estate dreams into reality, one deal at a time.My commitment is to provide personalized service, ensuring every client finds a property that truly fits their lifestyle and goals."</h1>
     </div>
     </div>`,L="/real-estate/image/il1.png",I="/real-estate/image/il3.png",E="/real-estate/image/il4.png",D=()=>`
-<div class="d-flex justify-content-center align-items-center py-5" style="height:65vh;">
+<div class="d-flex justify-content-center align-items-center py-5" style="height:45vh;">
 <div class="d-flex col-12 justify-content-center align-items-center">
 <div class="col-2 d-flex flex-column">
 <img src="${L}" class="img-fluid">
