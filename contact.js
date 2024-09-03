@@ -6,18 +6,18 @@ export const contactHtml = () => {
         <div class="side">
           <h1>Book an Appointment</h1>
           <p>
-            <textarea placeholder="Your message"></textarea>
+            <textarea placeholder="Message"></textarea>
           </p>
         </div>
         <div class="side ">
           <p>
-            <input type="text" placeholder="Your name" >
+            <input type="text" placeholder="Name" >
           </p>
           <p>
-            <input type="email" placeholder="Your email" >
+            <input type="email" placeholder="Email" >
           </p>
           <p>
-          <input type="date" placeholder="Fix Dates" >
+          <input type="date" placeholder="Dates" >
         </p>
           <p>
             <button id="sendLetter">Send</button>
