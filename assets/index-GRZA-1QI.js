@@ -5,18 +5,18 @@
         <div class="side">
           <h1>Book an Appointment</h1>
           <p>
-            <textarea placeholder="Your message"></textarea>
+            <textarea placeholder="Message"></textarea>
           </p>
         </div>
         <div class="side ">
           <p>
-            <input type="text" placeholder="Your name" >
+            <input type="text" placeholder="Name" >
           </p>
           <p>
-            <input type="email" placeholder="Your email" >
+            <input type="email" placeholder="Email" >
           </p>
           <p>
-          <input type="date" placeholder="Fix Dates" >
+          <input type="date" placeholder="Dates" >
         </p>
           <p>
             <button id="sendLetter">Send</button>
@@ -31,7 +31,7 @@
     <div class="main-bg" style=" background-color:black;border:30px solid white; border-top:0px;">
 <small class="text-center text-light" style="font-size:10px;">@zarahrealestate 2024</small>
     </div>
-    `,u="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",h=()=>{let n=document.getElementById("next"),l=document.getElementById("prev"),i=document.querySelector(".carousel"),s=i.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let o=3e3,c=7e3;n.onclick=function(){v("next")},l.onclick=function(){v("prev")};let d,m=setTimeout(()=>{next.click()},c);function v(g){let r=s.querySelectorAll(".carousel .list .item"),a=document.querySelectorAll(".carousel .thumbnail .item");g==="next"?(s.appendChild(r[0]),e.appendChild(a[0]),i.classList.add("next")):(s.prepend(r[r.length-1]),e.prepend(a[a.length-1]),i.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{i.classList.remove("next"),i.classList.remove("prev")},o),clearTimeout(m),m=setTimeout(()=>{next.click()},c)}},x=()=>`
+    `,u="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",h=()=>{let n=document.getElementById("next"),l=document.getElementById("prev"),i=document.querySelector(".carousel"),s=i.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let o=3e3,c=7e3;n.onclick=function(){v("next")},l.onclick=function(){v("prev")};let d,m=setTimeout(()=>{next.click()},c);function v(g){let a=s.querySelectorAll(".carousel .list .item"),r=document.querySelectorAll(".carousel .thumbnail .item");g==="next"?(s.appendChild(a[0]),e.appendChild(r[0]),i.classList.add("next")):(s.prepend(a[a.length-1]),e.prepend(r[r.length-1]),i.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{i.classList.remove("next"),i.classList.remove("prev")},o),clearTimeout(m),m=setTimeout(()=>{next.click()},c)}},x=()=>`
     <div class="list w-100">
     <div class="item w-100">
         <img src=${u}>
@@ -113,7 +113,7 @@
     <div class="col-4 d-flex justify-content-center align-items-center text-center  px-5 ">
     <h1 class="about-des  w-100 ">"Passionate about helping clients find their perfect home or investment. With a keen eye for market trends and a deep understanding of property values, I tur real estate dreams into reality, one deal at a time.My commitment is to provide personalized service, ensuring every client finds a property that truly fits their lifestyle and goals."</h1>
     </div>
-    </div>`,w="/real-estate/image/il1.png",L="/real-estate/image/il3.png",E="/real-estate/image/il4.png",I=()=>`
+    </div>`,w="/real-estate/image/il1.png",E="/real-estate/image/il3.png",L="/real-estate/image/il4.png",I=()=>`
 <div class="d-flex justify-content-center align-items-center py-5" style="height:65vh;">
 <div class="d-flex col-12 justify-content-center align-items-center">
 <div class="col-4 d-flex flex-column">
@@ -121,11 +121,11 @@
 <h3></h3>
 </div>
 <div class="col-4 d-flex flex-column">
-<img src="${L}" class="img-fluid">
+<img src="${E}" class="img-fluid">
 <h3></h3>
 </div>
 <div class="col-4 d-flex flex-column">
-<img src="${E}" class="img-fluid">
+<img src="${L}" class="img-fluid">
 <h3></h3>
 </div>
 </div>
