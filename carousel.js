@@ -63,7 +63,7 @@ export const carouselHtml = () => {
         <div class="content w-100">
         <div class="author">AVA</div>
         <div class="title">PALM JUMEIRAH</div>
-            <div class="topic">D. COLLECTION</div>
+            <div class="topic">DOR. COLLECTION</div>
             <div class="text-center d-flex justify-content-center">
             <p class="des w-50">
             "Discover the epitome of luxury living in Dubai's booming real estate market. From waterfront villas to high-rise apartments, find your dream home or next investment in one of the world's most sought-after cities."</p>
