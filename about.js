@@ -4,7 +4,7 @@ import marquee from 'https://cdn.jsdelivr.net/npm/vanilla-marquee/dist/vanilla-m
 
 export const aboutHtml = () => {
     return `
-    <div class="d-flex ">
+    <div class="d-flex py-5" style="background-color:#f8f3ea">
   
     <div class="col-4 d-flex justify-content-center align-items-center text-center">
    <h1 class="about-header  w-100 ">ABOUT ME</h1>
@@ -18,24 +18,3 @@ export const aboutHtml = () => {
     </div>`;
 };
 
-document.addEventListener('DOMContentLoaded', function() {
-    const marqueeContent = document.querySelector('.marquee-content');
-    const texts = [
-        'Where luxury meets lifestyle—discover your new address',
-        'Explore the pinnacle of luxury living',
-        'Your dream home awaits you'
-    ];
-
-    texts.forEach(text => {
-        const span = document.createElement('span');
-        span.textContent = text.toUpperCase();
-        marqueeContent.appendChild(span);
-        marqueeContent.appendChild(document.createTextNode(' \u00A0\u00A0\u00A0\u00A0 ')); // Adding space between texts
-    });
-
-    new marquee(document.getElementById('marq'), {
-        duplicated: true,
-        gap: 40,
-        speed: 250,
-    });
-});
