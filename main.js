@@ -5,18 +5,23 @@ import {  aboutHtml } from './about.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 document.querySelector('#app').innerHTML = `
+
 <header>
-<nav>
-<a  class="logo" style="font-size:22px;text-decoration:none;">ZARAH LENZ</a>
-  
-</nav>
+
 </header>
+
+<div class="d-flex justify-content-center align-items-center flex-column">
+
 <div class="carousel">
     ${carouselHtml()}
+</div>
+<div class="d-flex justify-content-center align-items-center w-100" style="height:50vh;">
+<div class="main-text">ZARAH LENZ</div>
 </div>
 <div>
 ${aboutHtml()}
 </div>
+
 
 `
 

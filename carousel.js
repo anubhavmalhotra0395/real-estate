@@ -1,6 +1,9 @@
 import orla1 from '/image/orla4.jpg'
 import ava4 from '/image/ava4.jpg'
-import binyan2 from '/image/binyan2.jpg'
+import binyan2 from '/image/binyan4.jpg'
+import binyan4 from '/image/binyan4.jpeg'
+import orla6 from '/image/orla6.jpeg'
+import ava6 from '/image/ava5.jpeg'
 
 
 export const carousel = () => {
@@ -56,70 +59,62 @@ function showSlider(type){
 }
 
 export const carouselHtml = () => {
-    return `<div class="list">
-    <div class="item">
+    return `
+    <div class="list w-100">
+    <div class="item w-100">
         <img src=${orla1}>
-        <div class="content">
-            <div class="author">ORLA</div>
-            <div class="title">INFINITY</div>
-            <div class="topic">DORCHESTER COLLECTION</div>
-            <div class="des">
-                Orla Infinity Dorchester Collection offers luxurious residences with stunning design, world-class amenities, and breathtaking views in a prime location.
-            </div>
-            <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-            </div>
+        <div class="content w-100">
+        <div class="author">AVA</div>
+        <div class="title">PALM JUMEIRAH</div>
+            <div class="topic">DOR. COLLECTION</div>
+            <div class="text-center d-flex justify-content-center">
+            <p class="des w-50">
+            "Discover the epitome of luxury living in Dubai's booming real estate market. From waterfront villas to high-rise apartments, find your dream home or next investment in one of the world's most sought-after cities."</p>
+     </div>
         </div>
     </div>
-    <div class="item">
+    <div class="item w-100">
         <img src=${ava4}>
-        <div class="content">
-            <div class="author">AVA</div>
-            <div class="title">PALM JUMEIRAH</div>
+        <div class="content w-100">
+        <div class="author">AVA</div>
+        <div class="title">PALM JUMEIRAH</div>
             <div class="topic">THE SKY PALACE</div>
-            <div class="des">
-                Orla Infinity Dorchester Collection features elegant residences, exceptional service, exclusive amenities, and panoramic views, providing an unparalleled luxury living experience.
-            </div>
-            <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-            </div>
+            <div class="text-center d-flex justify-content-center">
+            <p class="des w-50">
+            "Discover the epitome of luxury living in Dubai's booming real estate market. From waterfront villas to high-rise apartments, find your dream home or next investment in one of the world's most sought-after cities."</p>
+     </div>
         </div>
     </div>
-    <div class="item">
+    <div class="item w-100">
         <img src=${binyan2}>
-        <div class="content">
-            <div class="author">EYWA</div>
-            <div class="title">BINYAN</div>
+        <div class="content w-100">
+        <div class="author">EYWA</div>
+        <div class="title">EYWA</div>
             <div class="topic">EYWA BINYAN</div>
-            <div class="des">
-                Orla Infinity Dorchester Collection features elegant residences, exceptional service, exclusive amenities, and panoramic views, providing an unparalleled luxury living experience.
-            </div>
-            <div class="buttons">
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-            </div>
+            <div class="text-center d-flex justify-content-center">
+            <p class="des w-50">
+            "Discover the epitome of luxury living in Dubai's booming real estate market. From waterfront villas to high-rise apartments, find your dream home or next investment in one of the world's most sought-after cities."</p>
+     </div>
         </div>
     </div>
 </div>
 
 <div class="thumbnail">
-    <div class="item">
+    <div class="item zarah">
         <img src=${binyan2}>
         <div class="content">
             <div class="title">EYWA</div>
             <div class="description">BINYAN</div>
         </div>
     </div>
-    <div class="item">
+    <div class="item zarah">
         <img src="${orla1}">
         <div class="content">
             <div class="title">ORLA</div>
             <div class="description">INFINITY</div>
         </div>
     </div>
-    <div class="item">
+    <div class="item zarah">
         <img src=${ava4}>
         <div class="content">
             <div class="title">AVA</div>
@@ -133,5 +128,6 @@ export const carouselHtml = () => {
     <button id="next">></button>
 </div>
 
-<div class="time"></div>`
+<div class="time"></div>
+`
 }
