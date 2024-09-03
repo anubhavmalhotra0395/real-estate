@@ -128,11 +128,9 @@ import"https://cdn.jsdelivr.net/npm/vanilla-marquee/dist/vanilla-marquee.js";(fu
 </div>
 </div>
 `;document.querySelector("#app").innerHTML=`
-
 <header>
 
 </header>
-
 <div class="d-flex justify-content-center align-items-center flex-column">
 
 <div class="carousel">
@@ -150,6 +148,5 @@ ${D()}
 <div >
 ${g()}
 </div>
-
 
 `;x();
