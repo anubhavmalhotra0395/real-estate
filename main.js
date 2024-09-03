@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { extrasHtml } from './extras';
 
 window.addEventListener('load', () => {
-    // First, inject the HTML content
+    // Inject the HTML content first
     document.querySelector('#main-content').innerHTML = `
       <header></header>
       <div class="d-flex justify-content-center align-items-center flex-column">
@@ -30,26 +30,26 @@ window.addEventListener('load', () => {
       // If there are no images, just hide the loading screen immediately
       document.getElementById('loading-screen').style.display = 'none';
       document.getElementById('main-content').style.display = 'block';
+      carousel(); // Initialize carousel immediately
     } else {
       images.forEach((img) => {
-        img.onload = () => {
+        img.onload = img.onerror = () => {
           imagesLoaded++;
           if (imagesLoaded === images.length) {
             document.getElementById('loading-screen').style.display = 'none';
             document.getElementById('main-content').style.display = 'block';
-          }
-        };
-        img.onerror = () => {
-          imagesLoaded++;
-          if (imagesLoaded === images.length) {
-            document.getElementById('loading-screen').style.display = 'none';
-            document.getElementById('main-content').style.display = 'block';
+            carousel(); // Initialize carousel after all images are loaded
           }
         };
       });
     }
-  });
-  
-  // Initialize your carousel after content injection
-  carousel();
-  
+    const sendLetter = document.getElementById("sendLetter");
+    
+    if (sendLetter) {
+        sendLetter.addEventListener("click", addClass);
+    }
+});
+
+function addClass() {
+    document.body.classList.add("sent");
+}

@@ -32,18 +32,4 @@ export const contactHtml = () => {
     `;
 }
 
-function addClass() {
-    document.body.classList.add("sent");
-}
-
-// Ensure the DOM is fully loaded
-window.onload = () => {
-    const sendLetter = document.getElementById("sendLetter");
-    
-    // Check if the element exists before adding an event listener
-    if (sendLetter) {
-        sendLetter.addEventListener("click", addClass);
-    }
-};
-
 
