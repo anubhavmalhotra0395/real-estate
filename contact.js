@@ -1,6 +1,6 @@
 export const contactHtml = () => {
     return `
-    <div class="py-5 position-relative" style="height:65vh; width:100vw; background:#d1e8ff"">
+    <div class="py-5 position-relative contact-con" style="height:65vh; width:100vw;">
     <div class="wrapper centered">
       <article class="letter">
         <div class="side">
@@ -25,7 +25,11 @@ export const contactHtml = () => {
       <div class="envelope back"></div>
     </div>
     <p class="result-message centered text-center">Thank you for your message</p>
-    </div>`;
+    </div>
+    <div class="main-bg" style=" background-color:#f8f3ea">
+<small class="text-center text-dark" style="font-size:10px;">@zarahrealestate 2024</small>
+    </div>
+    `;
 }
 
 function addClass() {
