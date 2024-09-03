@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
     document.querySelector('#main-content').innerHTML = `
       <header></header>
       <div class="d-flex justify-content-center align-items-center flex-column">
-        <div class="carousel" style="border: 30px solid white;">
+        <div class="carousel">
           ${carouselHtml()}
         </div>
         <div class="d-flex justify-content-center align-items-center w-100" style="height:65vh;">

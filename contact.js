@@ -29,8 +29,11 @@ export const contactHtml = () => {
     </div>
     <p class="result-message centered text-center">Thank you for your message</p>
     </div>
-    <div class="main-bg" style=" background-color:black;border:30px solid white; border-top:0px;">
-<small class="text-center text-light" style="font-size:10px;">@zarahrealestate 2024</small>
+    <div class="main-bg pb-1 text-center"  style=" background-color:black;">
+  <span class="text-white " style="font-size:9px;">@copyright 2024</span>
+                
+               
+            
     </div>
     `;
 }
