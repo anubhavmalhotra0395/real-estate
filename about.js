@@ -13,7 +13,7 @@ export const aboutHtml = () => {
     <img src="${ZarahImg}" class="img-fluid"/>
     </div>
     <div class="col-4 d-flex justify-content-center align-items-center text-center  px-5 ">
-    <h1 class="about-des  w-100 ">"Passionate about helping clients find their perfect home or investment. With a keen eye for market trends and a deep understanding of property values, I turn real estate dreams into reality, one deal at a time.My commitment is to provide personalized service, ensuring every client finds a property that truly fits their lifestyle and goals."</h1>
+    <h1 class="about-des  w-100 ">"Passionate about helping clients find their perfect home or investment. With a keen eye for market trends and a deep understanding of property values, I tur real estate dreams into reality, one deal at a time.My commitment is to provide personalized service, ensuring every client finds a property that truly fits their lifestyle and goals."</h1>
     </div>
     </div>`;
 };
