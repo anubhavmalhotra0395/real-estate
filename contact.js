@@ -26,7 +26,7 @@ export const contactHtml = () => {
     </div>
     <p class="result-message centered text-center">Thank you for your message</p>
     </div>
-    <div class="main-bg" style=" background-color:#f8f3ea">
+    <div class="main-bg" style=" background-color:black;">
 <small class="text-center text-dark" style="font-size:10px;">@zarahrealestate 2024</small>
     </div>
     `;
@@ -45,3 +45,5 @@ window.onload = () => {
         sendLetter.addEventListener("click", addClass);
     }
 };
+
+
