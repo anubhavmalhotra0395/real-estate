@@ -7,11 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { extrasHtml } from './extras'
 
 document.querySelector('#app').innerHTML = `
-
 <header>
 
 </header>
-
 <div class="d-flex justify-content-center align-items-center flex-column">
 
 <div class="carousel">
@@ -29,7 +27,6 @@ ${extrasHtml()}
 <div >
 ${contactHtml()}
 </div>
-
 
 `
 
