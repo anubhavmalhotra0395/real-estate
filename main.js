@@ -5,22 +5,28 @@ import { aboutHtml } from './about.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { extrasHtml } from './extras';
 import { heroHtml } from './hero';
+import { achievementsHtml } from './achievements';
 
 window.addEventListener('load', () => {
     // Inject the HTML content first
     document.querySelector('#main-content').innerHTML = `
       <header></header>
       <div class="d-flex justify-content-center align-items-center flex-column">
+      <div class="carousel">
+      ${carouselHtml()}
+    </div>
       <div>${heroHtml()}</div>
-        <div class="carousel">
-          ${carouselHtml()}
-        </div>
-        <div class="d-flex justify-content-center align-items-center w-100" style="height:65vh;">
+      <div class=""d-flex pb-5" style="background-color:#f9f7f2;">
+      ${achievementsHtml()}
+      </div>
+     
+
+        <div class="d-flex justify-content-center align-items-center w-100" style="height:45vh;">
           <div class="main-text">ZARAH LENZ</div>
         </div>
         <div>${aboutHtml()}</div>
         <div>${extrasHtml()}</div>
-       
+     
         <div>${contactHtml()}</div>
       </div>
     `;
