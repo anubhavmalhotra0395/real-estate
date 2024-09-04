@@ -61,37 +61,45 @@ export const carouselHtml = () => {
     <div class="item w-100">
         <img src=${orla1}>
         <div class="content w-100">
-        <div class="author">AVA</div>
-        <div class="title">PALM JUMEIRAH</div>
-            <div class="topic">DOR. COLLECTION</div>
+        <div class="author">UAE</div>
+        <div class="title">DUBAI</div>
+            <div class="topic">DUBAI LISTINGS</div>
             <div class="text-center d-flex justify-content-center">
-            <p class="des w-50">
-            "Discover the epitome of luxury living in Dubai's booming real estate market. From waterfront villas to high-rise apartments, find your dream home or next investment in one of the world's most sought-after cities."</p>
+            <p class="des w-100 text-center">
+            "Check out some of the Dubai Listings"</p>
+     </div>
+     <div class="buttons d-flex justify-content-center">
+    <button class="button w-100">VIEW  PROPERTIES</button>
      </div>
         </div>
     </div>
     <div class="item w-100">
         <img src=${ava4}>
         <div class="content w-100">
-        <div class="author">AVA</div>
-        <div class="title">PALM JUMEIRAH</div>
-            <div class="topic">THE SKY PALACE</div>
+        <div class="author">UAE</div>
+        <div class="title">ABU DHABI</div>
+            <div class="topic">ABU DHABI LISTINGS</div>
             <div class="text-center d-flex justify-content-center">
-            <p class="des w-50">
-            "Discover the epitome of luxury living in Dubai's booming real estate market. From waterfront villas to high-rise apartments, find your dream home or next investment in one of the world's most sought-after cities."</p>
+            <p class="des w-100 text-center">
+            "Check out some of the Abu Dhabi Listings"</p>
      </div>
+     <div class="buttons d-flex justify-content-center">
+     <button class="button w-100">VIEW  PROPERTIES</button>
+      </div>
         </div>
     </div>
     <div class="item w-100">
         <img src=${binyan2}>
         <div class="content w-100">
-        <div class="author">EYWA</div>
-        <div class="title">EYWA</div>
-            <div class="topic">EYWA BINYAN</div>
+        <div class="author">UAE</div>
+        <div class="title">RAS AL KHAIMAH</div>
+            <div class="topic">RAS AL KHAIMAH LISTINGS</div>
             <div class="text-center d-flex justify-content-center">
-            <p class="des w-50">
-            "Discover the epitome of luxury living in Dubai's booming real estate market. From waterfront villas to high-rise apartments, find your dream home or next investment in one of the world's most sought-after cities."</p>
-     </div>
+            <p class="des w-100 text-center">
+            "Check out some of the Ras Al Khaimah Listings"</p>
+     </div> <div class="buttons d-flex justify-content-center">
+     <button class="button w-100">VIEW  PROPERTIES</button>
+      </div>
         </div>
     </div>
 </div>
@@ -99,24 +107,15 @@ export const carouselHtml = () => {
 <div class="thumbnail">
     <div class="item zarah">
         <img src=${binyan2}>
-        <div class="content">
-            <div class="title">EYWA</div>
-            <div class="description">BINYAN</div>
-        </div>
+    
     </div>
     <div class="item zarah">
         <img src="${orla1}">
-        <div class="content">
-            <div class="title">ORLA</div>
-            <div class="description">INFINITY</div>
-        </div>
+ 
     </div>
     <div class="item zarah">
         <img src=${ava4}>
-        <div class="content">
-            <div class="title">AVA</div>
-            <div class="description">THE SKY PALACE</div>
-        </div>
+
     </div>
 </div>
 

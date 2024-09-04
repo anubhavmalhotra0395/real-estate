@@ -11,6 +11,9 @@ export const heroHtml = () => {
     <small class="hero-small">ZARAH LENZ</small>
    <h1 class="hero-header">Lets Find Your Dream Home, I'm Here to Help</h1>
    <p class="hero-des mt-4">Discover your dream property in the UAE with our expert real estate services. Whether you're looking for luxury villas, modern apartments, or commercial spaces, we offer a curated selection of properties across prime locations in the UAE. Let us help you find the perfect place to live, invest, or grow your business.</p>
+   <div class="buttons d-flex justify-content-center">
+   <button class="button-hero">VIEW  PROPERTIES</button>
+    </div>
     </div>
     </div>
     </div>
