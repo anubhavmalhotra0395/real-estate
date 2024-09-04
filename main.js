@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
       </div>
      
 
-        <div class="d-flex justify-content-center align-items-center w-100" style="height:45vh;">
+        <div class="d-flex justify-content-center align-items-center w-100" style="height:32vh;">
           <div class="main-text">ZARAH LENZ</div>
         </div>
         <div>${aboutHtml()}</div>

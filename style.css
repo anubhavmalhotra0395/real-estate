@@ -91,7 +91,7 @@ header a{
   content: '';
   position: absolute;
   inset: 0;
-  opacity: 0.18;
+  opacity: 0.15;
   background-image: url("https://media.istockphoto.com/id/1221845543/vector/distressed-black-texture.jpg?s=612x612&w=0&k=20&c=LVfg5dSA5OVrqkCDkOoayTj9XVN-soNPIzeSBIqOMZc=");
 }
 .zarah::before {
@@ -378,10 +378,10 @@ text-align: center;
 }
 
 .about-header2{
-  color: #004aad;
+  color: #fff;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 46px;
+  font-size: 43px;
   transform: translateY(50px);
   filter: blur(20px);
   opacity: 0;
@@ -391,7 +391,7 @@ text-align: center;
   color: #004aad;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: px;
+  font-size: 33px;
   transform: translateY(50px);
   filter: blur(20px);
   opacity: 0;
@@ -407,6 +407,22 @@ text-align: center;
   text-align: justify;
 }
 
+.ach-con{
+  background: url('/public/image/a-bg.jpg');
+  height: 549px;
+  width: 100vw;
+position: relative;
+  background-position: center;
+  background-size: initial;
+
+}
+.ach-con::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.1;
+  background-image: url("https://media.istockphoto.com/id/1221845543/vector/distressed-black-texture.jpg?s=612x612&w=0&k=20&c=LVfg5dSA5OVrqkCDkOoayTj9XVN-soNPIzeSBIqOMZc=");
+}
 .about-des3{
   color: black!important;
   /* font-family: "Playfair Display", serif; */
@@ -426,6 +442,7 @@ text-align: center;
   font-weight: 400;
   /* text-transform: uppercase; */
   font-size: 16px;
+  padding-right: 65px;
   text-align: justify;
   transform: translateY(50px);
   filter: blur(20px);
@@ -826,4 +843,34 @@ font-family: "Playfair Display", serif;
 animation: load 1.2s infinite 0s ease-in-out;
 animation-direction: alternate;
 text-shadow: 0 0 1px white;
+}
+
+.ach-text{
+  position: relative;
+margin-top:90px;
+  
+}
+.ach-text::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 9.813vw;
+  background-color: #fff;
+  pointer-events: none;
+  opacity: .5;
+}
+
+.ach-header{
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+}
+.ach-des{
+  font-weight: 800;
+  color: #fff;
+  /* color: #004aad; */
+  text-align: center;
 }
