@@ -361,6 +361,17 @@ text-align: center;
   opacity: 0;
   animation: showContent .5s 1s linear 1 forwards;
 }
+
+.about-header2{
+  color: #004aad;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 46px;
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent .5s 1s linear 1 forwards;
+}
 .hero-header{
   color: #004aad;
   font-family: "Playfair Display", serif;
@@ -766,7 +777,7 @@ text-align: center;
  */
  
  .contact-con{
-  background:linear-gradient(90deg, #f5f7fa 0%, #c3cfe2 100%);
+  background:url('/public/image/orla6.jpeg');
   border-bottom: 0px;
 height: 65vh !important;
  }
