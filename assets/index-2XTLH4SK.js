@@ -28,13 +28,12 @@
     </div>
     <p class="result-message centered text-center">Thank you for your message</p>
     </div>
-    <div class="main-bg pb-1 text-center"  style=" background-color:black;">
-  <span class="text-white " style="font-size:9px;">@copyright 2024</span>
+   
                 
                
             
-    </div>
-    `,u="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",g=()=>{let n=document.getElementById("next"),l=document.getElementById("prev"),i=document.querySelector(".carousel"),s=i.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let a=3e3,r=7e3;n.onclick=function(){v("next")},l.onclick=function(){v("prev")};let d,m=setTimeout(()=>{next.click()},r);function v(h){let o=s.querySelectorAll(".carousel .list .item"),c=document.querySelectorAll(".carousel .thumbnail .item");h==="next"?(s.appendChild(o[0]),e.appendChild(c[0]),i.classList.add("next")):(s.prepend(o[o.length-1]),e.prepend(c[c.length-1]),i.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{i.classList.remove("next"),i.classList.remove("prev")},a),clearTimeout(m),m=setTimeout(()=>{next.click()},r)}},x=()=>`
+
+    `,u="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",g=()=>{let n=document.getElementById("next"),l=document.getElementById("prev"),i=document.querySelector(".carousel"),s=i.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let a=3e3,c=7e3;n.onclick=function(){v("next")},l.onclick=function(){v("prev")};let d,m=setTimeout(()=>{next.click()},c);function v(h){let o=s.querySelectorAll(".carousel .list .item"),r=document.querySelectorAll(".carousel .thumbnail .item");h==="next"?(s.appendChild(o[0]),e.appendChild(r[0]),i.classList.add("next")):(s.prepend(o[o.length-1]),e.prepend(r[r.length-1]),i.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{i.classList.remove("next"),i.classList.remove("prev")},a),clearTimeout(m),m=setTimeout(()=>{next.click()},c)}},x=()=>`
     <div class="list w-100">
     <div class="item w-100">
         <img src=${u}>
