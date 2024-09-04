@@ -1,4 +1,4 @@
-(function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))i(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&i(a)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function i(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}})();const y=()=>`
+(function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))i(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&i(a)}).observe(document,{childList:!0,subtree:!0});function s(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function i(e){if(e.ep)return;e.ep=!0;const t=s(e);fetch(e.href,t)}})();const g=()=>`
     <div class="py-5 position-relative contact-con" style="height:65vh; width:100vw;">
     <div class="wrapper centered">
       <article class="letter ">
@@ -33,7 +33,7 @@
                
             
 
-    `,v="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",g=()=>{let l=document.getElementById("next"),n=document.getElementById("prev"),s=document.querySelector(".carousel"),i=s.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let a=3e3,c=7e3;l.onclick=function(){m("next")},n.onclick=function(){m("prev")};let d,u=setTimeout(()=>{next.click()},c);function m(h){let r=i.querySelectorAll(".carousel .list .item"),o=document.querySelectorAll(".carousel .thumbnail .item");h==="next"?(i.appendChild(r[0]),e.appendChild(o[0]),s.classList.add("next")):(i.prepend(r[r.length-1]),e.prepend(o[o.length-1]),s.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{s.classList.remove("next"),s.classList.remove("prev")},a),clearTimeout(u),u=setTimeout(()=>{next.click()},c)}},b=()=>`
+    `,v="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",f="/real-estate/image/binyan4.jpg",h=()=>{let l=document.getElementById("next"),n=document.getElementById("prev"),s=document.querySelector(".carousel"),i=s.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let a=3e3,c=7e3;l.onclick=function(){u("next")},n.onclick=function(){u("prev")};let d,m=setTimeout(()=>{next.click()},c);function u(y){let r=i.querySelectorAll(".carousel .list .item"),o=document.querySelectorAll(".carousel .thumbnail .item");y==="next"?(i.appendChild(r[0]),e.appendChild(o[0]),s.classList.add("next")):(i.prepend(r[r.length-1]),e.prepend(o[o.length-1]),s.classList.add("prev")),clearTimeout(d),d=setTimeout(()=>{s.classList.remove("next"),s.classList.remove("prev")},a),clearTimeout(m),m=setTimeout(()=>{next.click()},c)}},x=()=>`
     <div class="list w-100">
     <div class="item w-100">
         <img src=${v}>
@@ -102,14 +102,14 @@
 </div>
 
 <div class="time"></div>
-`,x="/real-estate/image/zarah5.jpeg",I=()=>`
+`,b="/real-estate/image/zarah5.jpeg",I=()=>`
     <div class="d-flex py-5" style="background-color:#f9f7f2;">
   
     <div class="col-4 d-flex justify-content-center align-items-center text-center">
    <h1 class="about-header  w-100 ">ABOUT ME</h1>
     </div>
     <div class="col-4">
-    <img src="${x}" class="img-fluid"/>
+    <img src="${b}" class="img-fluid"/>
     </div>
     <div class="col-4 d-flex justify-content-center align-items-center text-center  px-5 ">
     <h1 class="about-des text-dark w-100 ">"Passionate about helping clients find their perfect home or investment. With a keen eye for market trends and a deep understanding of property values, I tur real estate dreams into reality, one deal at a time.My commitment is to provide personalized service, ensuring every client finds a property that truly fits their lifestyle and goals."</h1>
@@ -141,9 +141,7 @@
     <small class="hero-small">ZARAH LENZ</small>
    <h1 class="hero-header">Lets Find Your Dream Home, I'm Here to Help</h1>
    <p class="hero-des mt-4">Discover your dream property in the UAE with our expert real estate services. Whether you're looking for luxury villas, modern apartments, or commercial spaces, we offer a curated selection of properties across prime locations in the UAE. Let us help you find the perfect place to live, invest, or grow your business.</p>
-   <div class="buttons d-flex justify-content-center">
-   <button class="button-hero">VIEW  PROPERTIES</button>
-    </div>
+
     </div>
     </div>
     </div>
@@ -170,7 +168,7 @@
       <header></header>
       <div class="d-flex justify-content-center align-items-center flex-column">
       <div class="carousel">
-      ${b()}
+      ${x()}
     </div>
       <div>${j()}</div>
       <div class=""d-flex pb-5" style="background-color:#f9f7f2;">
@@ -184,6 +182,6 @@
         <div>${I()}</div>
         <div>${L()}</div>
      
-        <div>${y()}</div>
+        <div>${g()}</div>
       </div>
-    `;const l=document.querySelectorAll("img");let n=0;l.length===0?(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",g()):l.forEach(i=>{i.onload=i.onerror=()=>{n++,n===l.length&&(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block")}});const s=document.getElementById("sendLetter");s&&s.addEventListener("click",D)});function D(){document.body.classList.add("sent")}
+    `;const l=document.querySelectorAll("img");let n=0;l.length===0?(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",h()):l.forEach(i=>{i.onload=i.onerror=()=>{n++,n===l.length&&(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",h())}});const s=document.getElementById("sendLetter");s&&s.addEventListener("click",D)});function D(){document.body.classList.add("sent")}
