@@ -1,6 +1,0 @@
-
-
-const achievementsHtml = () => {
-    return `
-    `
-}

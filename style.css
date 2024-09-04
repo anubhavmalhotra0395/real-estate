@@ -356,6 +356,20 @@ text-align: center;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 73px;
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent .5s 1s linear 1 forwards;
+}
+.hero-header{
+  color: #004aad;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 73px;
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent .5s 1s linear 1 forwards;
 }
 .about-des{
   color: #004aad;
@@ -365,6 +379,26 @@ text-align: center;
   font-size: 20px;
   text-align: justify;
 }
+.hero-des{
+  color: black;
+  /* font-family: "Playfair Display", serif; */
+  font-weight: 400;
+  /* text-transform: uppercase; */
+  font-size: 18px;
+  text-align: justify;
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent .5s 1s linear 1 forwards;
+}
+
+.hero-small{
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent .5s 1s linear 1 forwards;
+}
+
 
 
 /* running time */
@@ -715,7 +749,7 @@ text-align: center;
  */
  
  .contact-con{
-  background: url(public/image/orla6.jpeg);
+  background: url(public/image/orla5.jpeg);
   border-bottom: 0px;
 height: 65vh !important;
  }

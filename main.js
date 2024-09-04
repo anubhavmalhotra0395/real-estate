@@ -4,12 +4,14 @@ import { carousel, carouselHtml } from './carousel.js';
 import { aboutHtml } from './about.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { extrasHtml } from './extras';
+import { heroHtml } from './hero';
 
 window.addEventListener('load', () => {
     // Inject the HTML content first
     document.querySelector('#main-content').innerHTML = `
       <header></header>
       <div class="d-flex justify-content-center align-items-center flex-column">
+      <div>${heroHtml()}</div>
         <div class="carousel">
           ${carouselHtml()}
         </div>
@@ -17,7 +19,8 @@ window.addEventListener('load', () => {
           <div class="main-text">ZARAH LENZ</div>
         </div>
         <div>${aboutHtml()}</div>
-        ${extrasHtml()}
+        <div>${extrasHtml()}</div>
+       
         <div>${contactHtml()}</div>
       </div>
     `;

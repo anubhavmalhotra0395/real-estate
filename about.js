@@ -3,7 +3,7 @@ import ZarahImg from '/image/zarah5.jpeg';;
 
 export const aboutHtml = () => {
     return `
-    <div class="d-flex py-5" style="background-color:#f8f3ea;">
+    <div class="d-flex py-5" style="background-color:#f8f3ea;;">
   
     <div class="col-4 d-flex justify-content-center align-items-center text-center">
    <h1 class="about-header  w-100 ">ABOUT ME</h1>
