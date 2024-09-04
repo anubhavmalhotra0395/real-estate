@@ -29,12 +29,11 @@ export const contactHtml = () => {
     </div>
     <p class="result-message centered text-center">Thank you for your message</p>
     </div>
-    <div class="main-bg pb-1 text-center"  style=" background-color:black;">
-  <span class="text-white " style="font-size:9px;">@copyright 2024</span>
+   
                 
                
             
-    </div>
+
     `;
 }
 
