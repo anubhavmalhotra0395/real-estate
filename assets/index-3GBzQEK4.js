@@ -116,7 +116,7 @@
     <h1 class="about-des text-dark w-100 ">"Passionate about helping clients find their perfect home or investment. With a keen eye for market trends and a deep understanding of property values, I tur real estate dreams into reality, one deal at a time.My commitment is to provide personalized service, ensuring every client finds a property that truly fits their lifestyle and goals."</h1>
     </div>
     </div>`,w="/real-estate/image/il1.png",I="/real-estate/image/il3.png",E="/real-estate/image/il4.png",L=()=>`
-<div class="d-flex justify-content-center align-items-center py-5" style="height:65vh;">
+<div class="d-flex justify-content-center align-items-center py-5" style="height:45vh;">
 <div class="d-flex col-8 justify-content-center align-items-center">
 <div class="col-4 d-flex flex-column">
 <img src="${w}" class="img-fluid">
