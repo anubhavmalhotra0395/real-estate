@@ -18,7 +18,7 @@ window.addEventListener('load', () => {
         ${carouselHtml()}
       </div>
       <div class="rev">${heroHtml()}</div>
-      <div>
+      <div class="rev">
             ${propertiesHtml()}
       </div>
       <div class="d-flex pb-5 rev">

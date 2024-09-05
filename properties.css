@@ -1,8 +1,9 @@
 
 .prop-text{
     color:#004aad;
-    font-size: 33px;
+    font-size: 46px;
     font-weight: 600;
+    text-align: center;
 }
 .dev-con{
     position: relative !important;
@@ -25,7 +26,7 @@
     margin-top:50px;
 }
 .item2{
-    width:400px;
+    width: 380px;
     height:280px;
     background-position: 50% 50%;
     display: inline-block;
@@ -33,6 +34,9 @@
     background-size: 200%;
     position: absolute;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .item2:before {
     content: '';
@@ -68,11 +72,10 @@
     position: absolute;
     top:100%;
     background-color: #fff;
-    width:80%;
-    padding:0 10%;
+    padding:0px 10%;
     font-family: system-ui;
     text-align: center;
-    box-shadow: 0 30px 50px #b9b9b9;
+    box-shadow: 0 20px 30px whitesmoke;
     transition: 0.5s;
     overflow: hidden;
     max-height: 0;
@@ -108,4 +111,14 @@
     background-color: #e2d9bf85;
     border:none;
 }
-  
+  .from{
+    font-family: initial;
+    font-size:22px;
+    font-weight: 400;
+    color: #004aad;
+  }
+
+  .name{
+    font-size: 12px;
+    font-weight: 300;
+  }

@@ -27,43 +27,38 @@ export const propertiesHtml = () => {
 
             </h1>
             <div id="slide">
-                <div class="item2" style="background-image: url('${Image1}')">
+                <div class="item2 d-flex" style="background-image: url('${Image1}')">
                     <div class="content w-100">
-                        <div class="from">Dak Lak</div>
-                        <div class="name">Núi đá voi DakLak</div>
-                        <div class="type">Leo núi</div>
+                        <div class="from">Example Property</div>
+                        <div class="name">Example Des</div>
                     </div>
                 </div>
 
-                <div class="item2" style="background-image: url('${Image2}')">
+                <div class="item2 " style="background-image: url('${Image2}')">
                     <div class="content w-100">
-                        <div class="from">Dak Lak</div>
-                        <div class="name">Núi đá voi DakLak</div>
-                        <div class="type">Leo núi</div>
+                    <div class="from">Example Property</div>
+                    <div class="name">Example Des</div>
                     </div>
                 </div>
 
                 <div class="item2" style="background-image: url('${Image3}')">
                     <div class="content w-100">
-                        <div class="from">Dak Lak</div>
-                        <div class="name">Núi đá voi DakLak</div>
-                        <div class="type">Leo núi</div>
+                    <div class="from">Example Property</div>
+                    <div class="name">Example Des</div>
                     </div>
                 </div>
 
                 <div class="item2" style="background-image: url('${Image4}')">
                     <div class="content w-100">
-                        <div class="from">Dak Lak</div>
-                        <div class="name">Núi đá voi DakLak</div>
-                        <div class="type">Leo núi</div>
+                    <div class="from">Example Property</div>
+                    <div class="name">Example Des</div>
                     </div>
                 </div>
 
                 <div class="item2 " style="background-image: url('${Image5}')">
                     <div class="content w-100">
-                        <div class="from">Dak Lak</div>
-                        <div class="name">Núi đá voi DakLak</div>
-                        <div class="type">Leo núi</div>
+                    <div class="from">Example Property</div>
+                    <div class="name">Example Des</div>
                     </div>
                 </div>
 
