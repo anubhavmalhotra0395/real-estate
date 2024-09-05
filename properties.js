@@ -22,7 +22,7 @@ export const propertiesHtml = () => {
     return ` 
     <div class="dev-con">
         <div class="container2">
-            <h1>
+            <h1 class="prop-text">
                VIEW EXCLUSIVE PROPERTIES<br />
 
             </h1>
