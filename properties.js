@@ -65,8 +65,8 @@ export const propertiesHtml = () => {
     
             </div>
             <div class="buttons2">
-                <button id="prev2">prev</button>
-                <button id="next2">next</button>
+                <button id="prev2">PREV</button>
+                <button id="next2">NEXT</button>
             </div>
         </div>
     </div>`;
