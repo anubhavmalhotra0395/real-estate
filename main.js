@@ -34,14 +34,14 @@ window.addEventListener('load', () => {
   `;
 
   // Ensure ScrollReveal is applied after all content is injected
-  setTimeout(() => {
-    ScrollReveal().reveal('.rev', {
-      duration: 1000,      // Duration of animation
-      origin: 'top',       // Animation starts from the top
-      distance: '-50px',    // Element moves 50px from the top
-      delay: 400           // Delay before the animation starts
-    });
-  }, 100);  // Small timeout to ensure DOM is updated
+//   setTimeout(() => {
+//     ScrollReveal().reveal('.rev', {
+//       duration: 1000,      // Duration of animation
+//       origin: 'top',       // Animation starts from the top
+//       distance: '-50px',    // Element moves 50px from the top
+//       delay: 400           // Delay before the animation starts
+//     });
+//   }, 100);  // Small timeout to ensure DOM is updated
 
   // Handle image loading
   const images = document.querySelectorAll('img');
