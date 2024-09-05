@@ -886,9 +886,11 @@ margin-top:90px;
 
 .ach-header{
   font-weight: 800;
-  color: black;
+
+  color: #004aad;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
+  font-family: initial;
 }
 .ach-des{
   font-weight: 400;
@@ -896,4 +898,5 @@ margin-top:90px;
   color: black;
   /* color: #004aad; */
   text-align: center;
+  font-family: initial;
 }

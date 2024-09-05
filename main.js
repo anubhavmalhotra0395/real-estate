@@ -55,7 +55,7 @@ window.addEventListener('load', () => {
         if (imagesLoaded === images.length) {
           document.getElementById('loading-screen').style.display = 'none';
           document.getElementById('main-content').style.display = 'block';
-          carousel(); // Initialize carousel after all images are loaded
+        //   carousel(); // Initialize carousel after all images are loaded
         }
       };
     });
