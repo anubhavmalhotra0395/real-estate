@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
       <div class="d-flex pb-5 rev">
         ${achievementsHtml()}
       </div>
-      <div class="d-flex justify-content-center align-items-center w-100 rev" style="height:32vh;">
+      <div class="d-flex justify-content-center align-items-center w-100 rev pb-5" style="height:35vh;">
         <div class="main-text">ZARAH LENZ</div>
       </div>
       <div class="rev">${aboutHtml()}</div>

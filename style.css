@@ -912,7 +912,7 @@ margin-top:90px;
   display: inline-flex;
   flex-direction: row;
   white-space: nowrap;
-  animation: marquee 90s linear infinite;
+  animation: marquee 240s linear infinite;
 }
 
 /* Keyframes for the marquee animation */
