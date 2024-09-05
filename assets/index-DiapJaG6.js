@@ -385,7 +385,7 @@
     `,Ze="/real-estate/image/orla1.jpg",Je="/real-estate/image/binyan4.jpg",ae=()=>{document.getElementById("next2").onclick=function(){console.log("ok");let e=document.querySelectorAll(".item2");document.getElementById("slide").appendChild(e[0])},document.getElementById("prev2").onclick=function(){let e=document.querySelectorAll(".item2");document.getElementById("slide").prepend(e[e.length-1])}},Qe=()=>` 
     <div class="dev-con">
         <div class="container2">
-            <h1>
+            <h1 class="prop-text">
                VIEW EXCLUSIVE PROPERTIES<br />
 
             </h1>
