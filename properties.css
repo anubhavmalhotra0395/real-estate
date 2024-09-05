@@ -1,0 +1,100 @@
+
+h1{
+    color:#004aad;
+    font-size: 43px;
+    font-weight: 600;
+}
+.dev-con{
+    position: relative !important;
+    height: 100vh ;
+}
+
+.container2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:1000px;
+    height:600px;
+    padding:50px;
+    background-color: #f5f5f5;
+    box-shadow: 0 30px 50px #bdbdbd;
+}
+#slide{
+    width:max-content;
+    margin-top:50px;
+}
+.item2{
+    width:400px;
+    height:280px;
+    background-position: 50% 50%;
+    display: inline-block;
+    transition: 1s;
+    background-size: 200%;
+    position: absolute;
+    z-index: 1;
+}
+.item2:nth-child(1){
+    transform: translate(-150%);
+    background-position: 0% 50%;
+    opacity: 0;
+}
+.item2:nth-child(2){
+    transform: translate(-40%);
+    background-position: 20% 50%;
+}
+.item2:nth-child(3){
+    transform: translate(70%);
+    background-position: 50% 50%;
+}
+.item2:nth-child(4){
+    transform: translate(180%);
+    background-position: 80% 50%;
+}
+.item2:nth-child(n+5){
+    transform: translate(290%);
+    background-position: 100% 50%;
+    opacity: 0;
+}
+.item2 .content{
+    position: absolute;
+    top:100%;
+    background-color: #fff;
+    width:80%;
+    padding:0 10%;
+    font-family: system-ui;
+    text-align: center;
+    box-shadow: 0 30px 50px #b9b9b9;
+    transition: 0.5s;
+    overflow: hidden;
+    max-height: 0;
+}
+.item2 .content .name{
+    font-family: 'Anton', sans-serif;
+}
+.item2:hover .content{
+    max-height: 100px;
+}
+.item2:hover{
+    background-size: 250%;
+}
+.buttons2{
+    position: absolute;
+    bottom:30px;
+    left:0;
+    text-align: center;
+    width:100%;
+}.buttons2 button{
+    height:30px;
+    text-align: center;
+    font-size: 12px !important;
+  color: black;
+    background-color: #e2d9bf85;
+    border:none;
+    transition: 0.5s;
+}
+.buttons2 button:hover{
+    background-color: #e2d9bf85;
+    border:none;
+}
+  
