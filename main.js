@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
         <div class="main-text">ZARAH LENZ</div>
       </div>
       <div class="rev">${aboutHtml()}</div>
-      <div class="rev">${extrasHtml()}</div>
+      <div >${extrasHtml()}</div>
       <div class="rev">${contactHtml()}</div>
     </div>
   `;
