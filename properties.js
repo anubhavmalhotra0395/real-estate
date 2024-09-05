@@ -22,7 +22,7 @@ export const propertiesHtml = () => {
 
             </h1>
             <div id="slide">
-                <div class="item2" style="background-image: url(public/image/orla1.jpg)">
+                <div class="item2" style="background-image: url('public/image/orla1.jpg')">
                     <div class="content w-100">
                         <div class="from">Dak Lak</div>
                         <div class="name">Núi đá voi DakLak</div>
@@ -30,7 +30,7 @@ export const propertiesHtml = () => {
                     </div>
                 </div>
 
-                <div class="item2" style="background-image: url(public/image/binyan3.jpg)">
+                <div class="item2" style="background-image: url('public/image/binyan3.jpg')">
                     <div class="content w-100">
                         <div class="from">Dak Lak</div>
                         <div class="name">Núi đá voi DakLak</div>
@@ -38,7 +38,7 @@ export const propertiesHtml = () => {
                     </div>
                 </div>
 
-                <div class="item2" style="background-image: url(public/image/ava4.jpg)">
+                <div class="item2" style="background-image: url('public/image/ava4.jpg')">
                     <div class="content w-100">
                         <div class="from">Dak Lak</div>
                         <div class="name">Núi đá voi DakLak</div>
@@ -46,7 +46,7 @@ export const propertiesHtml = () => {
                     </div>
                 </div>
 
-                <div class="item2" style="background-image: url(public/image/a-bg.jpg)">
+                <div class="item2" style="background-image: url('public/image/a-bg.jpg')">
                     <div class="content w-100">
                         <div class="from">Dak Lak</div>
                         <div class="name">Núi đá voi DakLak</div>
@@ -54,7 +54,7 @@ export const propertiesHtml = () => {
                     </div>
                 </div>
 
-                <div class="item2 " style="background-image: url(public/image/orla4.jpg)">
+                <div class="item2 " style="background-image: url('public/image/orla4.jpg')">
                     <div class="content w-100">
                         <div class="from">Dak Lak</div>
                         <div class="name">Núi đá voi DakLak</div>
