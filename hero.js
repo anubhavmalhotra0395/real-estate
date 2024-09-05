@@ -2,7 +2,7 @@ import MainImg from '/image/hero-img.jpeg'
 
 export const heroHtml = () => {
     return `
-    <div class="d-flex col-12  pt-5" style=" height:100vh" >
+    <div class="d-flex pt-5 col-12" style=" height:106vh" >
     <div class="container d-flex  gap-5 justify-content-center align-items-center ">
     <div class="col-5  mb-5 " style="filter:grayscale(100)">
     <img src="${MainImg}" class="img-fluid hero-img"/>

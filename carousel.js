@@ -1,6 +1,6 @@
 import orla1 from '/image/orla4.jpg'
 import ava4 from '/image/ava4.jpg'
-import binyan2 from '/image/binyan4.jpg'
+import binyan2 from '/image/a-bg.jpg'
 
 
 export const carousel = () => {

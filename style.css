@@ -126,7 +126,7 @@ header a{
 
 .carousel .list .item .content{
   position: absolute;
-  top: 5%;
+  top: 10%;
 
 text-align: center;
   left: 50%;
@@ -173,9 +173,9 @@ text-align: center;
   margin-top: 0px;
 }
 .carousel .list .item .buttons button{
-  background-color: #ffffff96;
-  color: #7e8162;
-  width: 180px !important;
+  background-color: #fffacd61;
+  color:#000000c7;
+  width: 155px !important;
 }
 
 .button-hero{
@@ -378,10 +378,10 @@ text-align: center;
 }
 
 .about-header2{
-  color: #fff;
+  color: #004aad;;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 43px;
+  font-size: 46px;
   transform: translateY(50px);
   filter: blur(20px);
   opacity: 0;
@@ -391,7 +391,7 @@ text-align: center;
   color: #004aad;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 53px;
   transform: translateY(50px);
   filter: blur(20px);
   opacity: 0;
@@ -400,7 +400,7 @@ text-align: center;
 .about-des{
   color: #004aad;
   /* font-family: "Playfair Display", serif; */
-  font-weight: 400;
+  font-weight: 200;
   /* text-transform: uppercase; */
   font-size: 20px;
   font-family:initial;
@@ -408,12 +408,13 @@ text-align: center;
 }
 
 .ach-con{
-  background: url('/public/image/a-bg.jpg');
-  height: 549px;
+  background: linear-gradient(to bottom left,#c5deff, #f3eee2, white);
+  height: 409px;
   width: 100vw;
 position: relative;
   background-position: center;
-  background-size: initial;
+  /* filter: grayscale(100); */
+  background-position: top;
 
 }
 .ach-con::before {
@@ -809,10 +810,17 @@ position: relative;
  */
  
  .contact-con{
-  background:url('/public/image/orla6.jpeg');
+  background:url('public/image/contact-bg.jpeg');
   border-bottom: 0px;
 height: 65vh !important;
  }
+ .contact-con:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.1;
+  background-image: url("https://media.istockphoto.com/id/1221845543/vector/distressed-black-texture.jpg?s=612x612&w=0&k=20&c=LVfg5dSA5OVrqkCDkOoayTj9XVN-soNPIzeSBIqOMZc=");
+}
  
 
  @keyframes load {
@@ -858,19 +866,34 @@ margin-top:90px;
   transform: translateY(-50%);
   width: 1px;
   height: 9.813vw;
-  background-color: #fff;
+  background-color:black;
+  pointer-events: none;
+  opacity: .5;
+}
+.ach-text:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 9.813vw;
+  background-color:transparent;
   pointer-events: none;
   opacity: .5;
 }
 
+
 .ach-header{
   font-weight: 800;
-  color: #fff;
+  color: black;
   text-align: center;
+  font-size: 28px;
 }
 .ach-des{
-  font-weight: 800;
-  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
   /* color: #004aad; */
   text-align: center;
 }
