@@ -5,21 +5,61 @@ import Image4 from '/image/il4.png'
 export const extrasHtml = () => {
 return `
 <div class="d-flex justify-content-center align-items-center py-5" style="height:45vh;">
-<div class="d-flex col-8 justify-content-center align-items-center">
-<div class="col-4 d-flex flex-column">
-<img src="${Image1}" class="img-fluid">
-<h3></h3>
+    <div class="d-flex col-12 justify-content-center align-items-center marquee-container">
+        <div class="marquee-content d-flex col-10 justify-content-center align-items-center">
+            <div class="col-4 d-flex flex-column">
+                <img src="${Image1}" class="img-fluid">
+                <h3></h3>
+            </div>
+            <div class="col-4 d-flex flex-column">
+                <img src="${Image3}" class="img-fluid">
+                <h3></h3>
+            </div>
+            <div class="col-4 d-flex flex-column">
+                <img src="${Image4}" class="img-fluid">
+                <h3></h3>
+            </div>
+            <div class="col-4 d-flex flex-column">
+            <img src="${Image1}" class="img-fluid">
+            <h3></h3>
+        </div>
+        <div class="col-4 d-flex flex-column">
+            <img src="${Image3}" class="img-fluid">
+            <h3></h3>
+        </div>
+        <div class="col-4 d-flex flex-column">
+            <img src="${Image4}" class="img-fluid">
+            <h3></h3>
+        </div>
+        <div class="col-4 d-flex flex-column">
+        <img src="${Image1}" class="img-fluid">
+        <h3></h3>
+    </div>
+    <div class="col-4 d-flex flex-column">
+        <img src="${Image3}" class="img-fluid">
+        <h3></h3>
+    </div>
+    <div class="col-4 d-flex flex-column">
+        <img src="${Image4}" class="img-fluid">
+        <h3></h3>
+    </div>
+    <div class="col-4 d-flex flex-column">
+    <img src="${Image1}" class="img-fluid">
+    <h3></h3>
 </div>
 <div class="col-4 d-flex flex-column">
-<img src="${Image3}" class="img-fluid">
-<h3></h3>
+    <img src="${Image3}" class="img-fluid">
+    <h3></h3>
 </div>
 <div class="col-4 d-flex flex-column">
-<img src="${Image4}" class="img-fluid">
-<h3></h3>
+    <img src="${Image4}" class="img-fluid">
+    <h3></h3>
 </div>
+    </div>
+        </div>
+    </div>
 </div>
-</div>
+
 `
 }
 

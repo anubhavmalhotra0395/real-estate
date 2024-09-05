@@ -900,3 +900,34 @@ margin-top:90px;
   text-align: center;
   font-family: initial;
 }
+/* Container for the marquee effect */
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* The actual scrolling content */
+.marquee-content {
+  display: inline-flex;
+  flex-direction: row;
+  white-space: nowrap;
+  animation: marquee 90s linear infinite;
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+/* Ensures images and content are aligned correctly */
+.marquee-content .col-4 {
+  display: inline-flex;
+  flex-direction: column;
+}
+
