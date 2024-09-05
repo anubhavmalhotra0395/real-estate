@@ -3,7 +3,7 @@ import Image1 from '/image/orla1.jpg'
 import Image2 from '/image/orla4.jpg'
 import Image3 from '/image/a-bg.jpg'
 import Image4 from '/image/ava4.jpg'
-import Image5 from '/image/binyan3.jpg'
+import Image5 from '/image/binyan4.jpg'
 
 export const carousel2 = () => {
     // Wait for DOM content to be fully loaded
