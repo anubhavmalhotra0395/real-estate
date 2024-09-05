@@ -457,4 +457,4 @@
         <div >${xe()}</div>
         <div class="rev">${me()}</div>
       </div>
-    `,setTimeout(()=>{k().reveal(".rev",{duration:1e3,origin:"top",distance:"-50px",delay:400})},100);const e=document.querySelectorAll("img");let t=0;const i=()=>{document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",pe(),Ke()};e.length===0?i():e.forEach(r=>{r.onload=r.onerror=()=>{t++,t===e.length&&i()}});const s=document.getElementById("sendLetter");s&&s.addEventListener("click",Je)});function Je(){document.body.classList.add("sent")}
+    `,setTimeout(()=>{k().reveal(".rev",{duration:1e3,origin:"top",distance:"-50px",delay:400})},100);const e=document.querySelectorAll("img");let t=0;const i=()=>{document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",pe(),Ke()};e.forEach(r=>{r.onload=r.onerror=()=>{t++,t===e.length&&i()}});const s=document.getElementById("sendLetter");s&&s.addEventListener("click",Je)});function Je(){document.body.classList.add("sent")}
