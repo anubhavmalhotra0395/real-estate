@@ -408,7 +408,7 @@ text-align: center;
 }
 
 .ach-con{
-  background: linear-gradient(to top, #f9f7f2, #f3eee2);
+  background: linear-gradient(to bottom,white 0%, #f9f7f2 10%, #f3eee2 90%);
   height: 409px;
   width: 100vw;
 position: relative;
