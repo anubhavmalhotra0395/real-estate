@@ -33,7 +33,7 @@
                
             
 
-    `,v="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",h="/real-estate/image/binyan4.jpg",f=()=>{let c=document.getElementById("next"),l=document.getElementById("prev"),s=document.querySelector(".carousel"),i=s.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let n=3e3,d=7e3;c.onclick=function(){m("next")},l.onclick=function(){m("prev")};let r,u=setTimeout(()=>{next.click()},d);function m(g){let a=i.querySelectorAll(".carousel .list .item"),o=document.querySelectorAll(".carousel .thumbnail .item");g==="next"?(i.appendChild(a[0]),e.appendChild(o[0]),s.classList.add("next")):(i.prepend(a[a.length-1]),e.prepend(o[o.length-1]),s.classList.add("prev")),clearTimeout(r),r=setTimeout(()=>{s.classList.remove("next"),s.classList.remove("prev")},n),clearTimeout(u),u=setTimeout(()=>{next.click()},d)}},x=()=>`
+    `,v="/real-estate/image/orla4.jpg",p="/real-estate/image/ava4.jpg",h="/real-estate/image/a-bg.jpg",f=()=>{let c=document.getElementById("next"),l=document.getElementById("prev"),s=document.querySelector(".carousel"),i=s.querySelector(".carousel .list"),e=document.querySelector(".carousel .thumbnail"),t=e.querySelectorAll(".item");document.querySelector(".carousel .time"),e.appendChild(t[0]);let n=3e3,d=7e3;c.onclick=function(){m("next")},l.onclick=function(){m("prev")};let r,u=setTimeout(()=>{next.click()},d);function m(g){let a=i.querySelectorAll(".carousel .list .item"),o=document.querySelectorAll(".carousel .thumbnail .item");g==="next"?(i.appendChild(a[0]),e.appendChild(o[0]),s.classList.add("next")):(i.prepend(a[a.length-1]),e.prepend(o[o.length-1]),s.classList.add("prev")),clearTimeout(r),r=setTimeout(()=>{s.classList.remove("next"),s.classList.remove("prev")},n),clearTimeout(u),u=setTimeout(()=>{next.click()},d)}},x=()=>`
     <div class="list w-100">
     <div class="item w-100">
         <img src=${v}>
@@ -132,7 +132,7 @@
 </div>
 </div>
 `,S="/real-estate/image/hero-img.jpeg",D=()=>`
-    <div class="d-flex col-12  pt-5" style=" height:100vh" >
+    <div class="d-flex pt-5 col-12" style=" height:106vh" >
     <div class="container d-flex  gap-5 justify-content-center align-items-center ">
     <div class="col-5  mb-5 " style="filter:grayscale(100)">
     <img src="${S}" class="img-fluid hero-img"/>
@@ -144,9 +144,9 @@
     </div>
     </div>
     </div>
-    `,H=()=>`
+    `,j=()=>`
 
-    <div class="d-flex  py-5 align-items-center flex-column align-items-center ach-con" >
+    <div class="d-flex  pb-5 align-items-center flex-column justify-content-center ach-con" >
   <h1 class="about-header2 " >WHY WORK WITH ME ?</h1>
    <div class="d-flex col-8">
    <div class="ach-text col-4 d-flex flex-column">
@@ -175,7 +175,7 @@
     </div>
       <div>${D()}</div>
       <div class=""d-flex pb-5" style="background-color:#f9f7f2;">
-      ${H()}
+      ${j()}
       </div>
      
 
@@ -187,4 +187,4 @@
      
         <div>${y()}</div>
       </div>
-    `;const c=document.querySelectorAll("img");let l=0;c.length===0?(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",f()):c.forEach(i=>{i.onload=i.onerror=()=>{l++,l===c.length&&(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",f())}});const s=document.getElementById("sendLetter");s&&s.addEventListener("click",j)});function j(){document.body.classList.add("sent")}
+    `;const c=document.querySelectorAll("img");let l=0;c.length===0?(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",f()):c.forEach(i=>{i.onload=i.onerror=()=>{l++,l===c.length&&(document.getElementById("loading-screen").style.display="none",document.getElementById("main-content").style.display="block",f())}});const s=document.getElementById("sendLetter");s&&s.addEventListener("click",H)});function H(){document.body.classList.add("sent")}
