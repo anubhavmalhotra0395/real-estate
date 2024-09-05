@@ -54,10 +54,7 @@ window.addEventListener('load', () => {
       carousel2(); // Initialize the second carousel
     };
   
-    if (images.length === 0) {
-      // No images, hide loading screen and initialize carousel
-      initializeCarousel();
-    } else {
+  
       images.forEach((img) => {
         img.onload = img.onerror = () => {
           imagesLoaded++;
@@ -66,7 +63,7 @@ window.addEventListener('load', () => {
           }
         };
       });
-    }
+  
   
     const sendLetter = document.getElementById("sendLetter");
   
