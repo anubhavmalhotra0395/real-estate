@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { extrasHtml } from './extras';
 import { heroHtml } from './hero';
 import ScrollReveal from 'scrollreveal';
-import { achievementsHtml } from './achievements';
-import { propertiesHtml } from './properties';
+import { achievementsHtml} from './achievements';
+import { propertiesHtml,carousel2  } from './properties';
 
 window.addEventListener('load', () => {
   // Inject the HTML content first
