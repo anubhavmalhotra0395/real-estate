@@ -179,17 +179,29 @@ text-align: center;
 }
 
 .button-hero{
-  background-color: white;
-  color:black;
 
-  width: 180px !important;
+  width: 120px !important;
   margin-top: 20px;
-  font-size: 20px !important;
-  font-family: initial;
+background-color: #e2d9bf85!important;
+  font-size: 12px !important;
+  font-family: initial !important;
+  color: black;
+  padding: 10px;
+}
+
+.button-about{
+
+  width: 120px !important;
+  margin-top: 20px;
+  background-color: #e2d9bf85!important;
+  font-size: 12px !important;
+  font-family: initial !important;
+  color: black;
+  padding: 10px;
 }
 
 .button-hero:hover{
-  background-color: #000000c7;
+  background-color: #000000c7 !important;
   color:white;
 }
 
