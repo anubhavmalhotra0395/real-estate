@@ -25,7 +25,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom,white 0%, #f9f7f2 5%,#f9f7f2 50%, white 90%);
+    background: linear-gradient(to bottom,white 0%, #f9f7f2 5%,#f9f7f2 90%, white 100%);
 }
 #slide{
     width:60vw;
